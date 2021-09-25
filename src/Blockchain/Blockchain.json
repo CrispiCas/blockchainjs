@@ -1,0 +1,55 @@
+{
+    "block1chain": [
+        {
+            "index": 0,
+            "current_time": "06/04/2021",
+            "info": "Initial Block in the Chain",
+            "nextHash": "0",
+            "hash": "8d7a5c21f8ba0515321ffac0537f2922f3893723bf4a62ff8d9a75defb754c9d"
+        },
+        {
+            "index": 1,
+            "current_time": "20/1/2121",
+            "info": {
+                "sender": "stonau",
+                "recipient": "Knuspiiii",
+                "quantity": 222212121212
+            },
+            "nextHash": "8d7a5c21f8ba0515321ffac0537f2922f3893723bf4a62ff8d9a75defb754c9d",
+            "hash": "7274da1a68067d4781a43ab3b1d9a2ef0e7a980c072f15746008f68247c8dbf9"
+        },
+        {
+            "index": 2,
+            "current_time": "20/20/2020",
+            "info": {
+                "sender": "Kurzername",
+                "recipient": "Ston",
+                "quantity": 122222222222222
+            },
+            "nextHash": "7274da1a68067d4781a43ab3b1d9a2ef0e7a980c072f15746008f68247c8dbf9",
+            "hash": "309d4680d5ab4e6c8cf4e86887e8b41441ea1f5cbd3f07b05a8c98f82ed5e9ea"
+        },
+        {
+            "index": 3,
+            "current_time": "20/10/2020",
+            "info": {
+                "sender": "testper",
+                "recipient": "test2per",
+                "quantity": 12345
+            },
+            "nextHash": "309d4680d5ab4e6c8cf4e86887e8b41441ea1f5cbd3f07b05a8c98f82ed5e9ea",
+            "hash": "48c400942bf83e12c53f627e99915ba0ae50eaf3242be3de1c6c3c5cf6bfe304"
+        },
+        {
+            "index": 6,
+            "current_time": "25/9/2021",
+            "info": {
+                "sender": "test1per",
+                "recipient": "test2per",
+                "quantity": 12345
+            },
+            "nextHash": "48c400942bf83e12c53f627e99915ba0ae50eaf3242be3de1c6c3c5cf6bfe304",
+            "hash": "cf0c149bda8278755ec166e59ac64889bd33fc5577696e098c8be5c91d65546f"
+        }
+    ]
+}
