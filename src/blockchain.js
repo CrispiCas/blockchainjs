@@ -60,8 +60,6 @@ class BlockChain{
 
 const thecoin = new BlockChain();
 
-
-
 function Chain(index, current_time, sender, recipient, quantity){
     thecoin.addNewBlock(new BlockCrypto(index, current_time, {sender: sender, recipient: recipient, quantity: quantity}));
 }
@@ -73,4 +71,4 @@ let blcchain = bc.block1chain[bc.block1chain.length-1]
 let firstBlock = thecoin.addNewBlock(new BlockCrypto(index=1, current_time= "27/9/21", {sender:"Crispr", recipient: "btc", quantity: 0}));
 
 fs.writeFileSync("./src/Blockchain/Blockchain.json", JSON.stringify(thecoin, null, 4));
-console.log("Blockchain saved"); 
+console.log("Blockchain saved");
